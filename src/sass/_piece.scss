@@ -1,0 +1,16 @@
+div.piece{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 75, 75);
+    border-radius: 10px;
+    font-size: 2em;
+    color: #2f2f2f;
+    font-weight: bold;
+    line-height: 100px;
+    cursor: pointer;
+
+    &.empty{
+        background-color: transparent;
+        cursor: unset;
+    }
+}

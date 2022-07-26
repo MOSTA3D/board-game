@@ -1,3 +1,50 @@
+// global variables
+
+// global declarations
+
+*{margin: 0; padding: 0}
+
+body{
+  background-color: #222;
+}
+
+h1{
+  color: rgb(80, 80, 80);
+}
+
+h1 span{
+  color: rgb(211, 108, 108);
+  font-family: cursive;
+}
+
+// mixins
+
+@mixin flexbox($direction: row, $jstfy: space-between, $align: "center"){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $jstfy;
+  align-items: $align;
+}
+
+// imports
+
+// container
+@import "./sass/container";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }

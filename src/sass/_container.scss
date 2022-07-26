@@ -1,0 +1,15 @@
+div.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 1px;
+    width: 403px;
+    height: 403px;
+    margin: 50px auto;
+    border: 10px solid #000;
+    background-color: #333;
+    
+    
+    // piece
+    @import "./piece";
+}
